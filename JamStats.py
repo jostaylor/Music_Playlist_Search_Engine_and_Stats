@@ -12,6 +12,7 @@ requests.packages.urllib3.disable_warnings()
 
 
 # Asks user where they are
+'''
 location = 0
 while location != 1 and location != 2 and location != 3 and location != 4:
     location = int(input("Are you at\n1)The School\n2)Your moms house\n3)On your laptop"))
@@ -30,6 +31,10 @@ while location != 1 and location != 2 and location != 3 and location != 4:
     else:
         print("Please choose one of the options listed")
     print(location)
+'''
+
+# Above code has been removed because the text file is now in the same folder (for Github)
+jamList = open("JamList.txt", "r")
 
 # Declares empty arrays
 songNames = []
